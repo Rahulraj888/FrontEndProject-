@@ -7,7 +7,7 @@
     background-color: black;
 }
 .navbar-brand img{
-    width: 177px;
+    width: 100px;
 }
 .nav-link{
     color: seashell;
@@ -21,7 +21,8 @@
     display: flex;
     height: 100%;
     align-items: center;
-    
+    margin-right: 20px;
+    padding-right: 90px;
 }
 /***** footer  *****/
 .footer{

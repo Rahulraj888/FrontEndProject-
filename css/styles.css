@@ -3,3 +3,8 @@
     padding: 10% 0;
     color: #ffffff;
 }
+
+.nav-item {
+    margin-inline: 20px;
+    padding: 10px;
+}

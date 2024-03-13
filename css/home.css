@@ -10,7 +10,7 @@
    
 }
 .navbar-brand img{
-    width: 177px;
+    width: 100px;
 }
 .nav-link{
     color: seashell;
@@ -24,13 +24,11 @@
     display: flex;
     height: 100%;
     align-items: center;
-    
 }
 .main-container h1{
     color:#fff;
     font-size:70px;
     font-family: 'PT serif', serif;
-    
 }
 .section-2 {
     background-color: #fff;
