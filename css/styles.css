@@ -104,3 +104,34 @@
     color: #fff;
     text-decoration: none;
 }
+
+
+/***** footer  *****/
+.footer{
+    background-color: #161f1e;
+    padding: 10% 0;
+}
+.lastSection{
+    display: flex;
+    justify-content: space-around;
+
+}
+.lastSection ul{
+    padding: 0;
+}
+.lastSection ul li{
+    color: #fff;
+    padding-block: 5px;
+    list-style: none;
+    text-decoration: underline;
+}
+.lastSection ul li:hover{
+    font-size: 1.25rem;
+
+}
+.logo-img{
+    width:52px;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.575);
+}
