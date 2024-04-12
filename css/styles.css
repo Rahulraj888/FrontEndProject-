@@ -103,26 +103,28 @@
 /***** footer  *****/
 .footer{
     background-color: #161f1e;
-    padding: 10% 0;
+    padding: 2% 0;
 }
-.lastSection{
-    display: flex;
-    justify-content: space-around;
-
-}
-.lastSection ul{
-    padding: 0;
-}
-.lastSection ul li{
+.last-section ul li{
     color: #fff;
     padding-block: 5px;
     list-style: none;
     text-decoration: underline;
 }
-.lastSection ul li:hover{
-    font-size: 1.25rem;
 
+.last-section ul li:hover{
+    color: #fff;
+    font-size: 1.2rem;
 }
+
+.footer-section {
+    color: #fff;
+}
+
+.footer-section:hover {
+    color: #fff;
+}
+
 .logo-img{
     width:52px;
 }
