@@ -261,30 +261,6 @@
     right: 0;
     background-color: #fff;
 } 
-/***** footer  *****/
-.footer{
-    background-color: #161f1e;
-    padding: 10% 0;
-}
-.lastSection{
-    display: flex;
-    justify-content: space-around;
-
-}
-.lastSection ul{
-    padding: 0;
-}
-.lastSection ul li{
-    color: #fff;
-    list-style: none;
-
-}
-.logo-img{
-    width:52px;
-}
-.footer p{
-    color: rgba(255, 255, 255, 0.575);
-}
 
 
     
