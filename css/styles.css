@@ -61,7 +61,6 @@
 }
 .inner-pages nav img{
     width: 32px;
-
 }
 .inner-pages ul li{
     font-family: 'PT serif',serif;
@@ -77,14 +76,12 @@
     width:100%;
     left: 0;
     right: 0;
-
 }
 .inner-pages .list{
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    
 }
 .inner-pages .list a{
     text-decoration: none;
