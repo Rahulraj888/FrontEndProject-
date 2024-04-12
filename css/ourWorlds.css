@@ -55,5 +55,8 @@ body {
 }
 .gallery-margin{
     margin-bottom: 60px;
+}
 
+.gallery-margin:hover{
+    transform: scale(1.1);;   
 }
