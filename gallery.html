@@ -2,101 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Refined Reside Realty</title>
-    <!-- adding stylesheet to load bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- gallery and common styles sheet linked -->
+    <link rel="icon" href="../assets/favicon-16x16.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/gallery.css">
 </head>
- 
+
 <body>
-    <div>
-        <!-- custom style added in class firstSection1 -->
-        <div class="firstSection-1">
-            <header class="header">
-                <a class="logo" href="about.html" target="_self">
-                    <img src="images/logoimage.png" class="logo-img">
-                </a>
-
-                <div class="navbar">
-                    <ul class="list">
-                        <li class="item"><a class="item-list" href="home.html">Home</a></li>
-                        <li class="item"><a class="item-list" href="ourWorlds.html">Our Worlds</a></li>
-                        <li class="item"><a class="item-list" href="experiences.html">Experiences</a></li>
-                        <li class="item"><a class="item-list" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link menubar" href="#">
-                                <div class="menu-icon"><span></span></div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-            <div class="main-heading">
-                <h1 class="main-title">
-                    Gallery
-                </h1>
+    <nav class="navbar  fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href=""><img src="images/logoimage.png" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ourWorlds.html">Our Worlds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experiences.html">Experiences</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="#">
+                            <div class="menu-icon"><span></span></div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        
-        <!--margin top-->
-        <div class="container ">
-            <!-- Declaring row with margin top as 1rem-->
-            <div class="row mt-1 ">
-                <!-- dividing into 3 columns of equal length -->
-                <div class="col-4 ">
-                    <div>
-                        <img class="image" src="images/gallery/outdoor.jpg" alt="">
+    </nav>
+    <section class="section-1">
+        <div class=" container main-container">
+            <h1>Gallery</h1>
+        </div>
+    </section>
 
+    <section class="section-2">
+        <div class="container-fluid gallery-container">
+            <div class="row align-items-stretch">
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                    <div class="gallery-content">
+                        <img class="img-fluid" src="images/gallery/clubhouse.jpg" alt="North Shore Preserve - Clubhouse">
+                        <p class="gallery-caption">Clubhouse</p>
                     </div>
-                     <!-- using margin top spacing of 5rem. -->
-                    <h1 class="mt-5">Outdoor Pursuits</h1>
-                  
                 </div>
-                 <!-- dividing into 3 columns of equal length -->
-                <div class="col-4 ">
-                    <div>
-                        <img class="image" src="images/gallery/golf.jpg" alt="">
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                    <div class="gallery-content">
+                        <img class="img-fluid" src="images/gallery/golf.jpg" alt="North Shore Preserve - Wellness">
+                        <p class="gallery-caption">Wellness</p>
                     </div>
-                    <!-- using margin top spacing of 5rem. -->
-                    <h1 class="mt-5">Golf</h1>
                 </div>
-                <div class="col-4 ">
-                    <div>
-                        <img class="image" src="images/gallery/lifestyle.jpeg" alt="">
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                    <div class="gallery-content">
+                        <img class="img-fluid" src="images/gallery/landscpes.jpg" alt="North Shore Preserve - Wellness">
+                        <p class="gallery-caption">Land Scapes</p>
                     </div>
-                    <h1 class="mt-5">Lifestyle</h1>
-                  
                 </div>
-                <div class="col-4">
-                    <div>
-                        <img class="image" src="images//gallery/landscpes.jpg" alt="">
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                    <div class="gallery-content">
+                        <img class="img-fluid" src="images/gallery/lifestyle.jpeg" alt="North Shore Preserve - Clubhouse">
+                        <p class="gallery-caption">Life Style</p>
                     </div>
-                    <h1 class="mt-5">Landscapes</h1>
-                    
                 </div>
-                <div class="col-4 ">
-                    <div>
-                        <img class="image" src="images/gallery/clubhouse.jpg" alt="">
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                    <div class="gallery-content">
+                        <img class="img-fluid" src="images/gallery/outdoor.jpg" alt="North Shore Preserve - Wellness">
+                        <p class="gallery-caption">Outdoor</p>
                     </div>
-                    <h1 class="mt-5">Clubhouse</h1>
-                    
                 </div>
-                <div class="col-4 ">
-                    <div>
-                        <img class="image" src="images/gallery/wellness.jpg" alt="">
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                    <div class="gallery-content">
+                        <img class="img-fluid" src="images/gallery/wellness.jpg" alt="North Shore Preserve - Wellness">
+                        <p class="gallery-caption">Wellness</p>
                     </div>
-                    <h1 class="mt-5">Wellness</h1>  
                 </div>
+                
             </div>
         </div>
-    </div>    
-    <!--custom style declared for selector footer -->
+    </section>
+
     <footer class="footer px-3" id="footer">
         <div class="row m-0 last-section">
             <div class="col-md-4 p-4 text-light">
@@ -132,11 +127,11 @@
         </div>
     </footer>
 
-    <!---inner pages menubar    -->
-    <div class="inner-pages ">
+     <!---inner pages menubar    -->
+     <div class="inner-pages">
         <div class="container position-relative">
-        <nav class="d-flex justify-content-between align-items-center">
-            <img src="../assets/home_page/logo_symbol.svg" alt="">
+           <nav class="d-flex justify-content-between align-items-center">
+               <img src="../assets/home_page/logo_symbol.svg" alt="">
                     <div class="close-menu">
                         X
                     </div>
@@ -148,7 +143,7 @@
         </div>        
     </div>
 </body>
- 
+
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
 <script src="js/js.js"></script>
 </html>
