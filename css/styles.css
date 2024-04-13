@@ -100,7 +100,8 @@
 /***** footer  *****/
 .footer{
     background-color: #161f1e;
-    padding: 2% 0;
+    text-align: center;
+    justify-content: center;
 }
 .last-section ul li{
     color: #fff;

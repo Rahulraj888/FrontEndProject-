@@ -8,8 +8,8 @@
     font-family: 'gotham';
     src: url(../images/career/career.jpg) format('truetype') ;
     font-weight: 100;
-
 }
+
 .section-1{
     background-image: url(../images/career/career.jpg);
     height: 100vh;
@@ -17,8 +17,8 @@
     background-size: cover;
     background-position:center;
     position: relative;
-   
 }
+
 .navbar-brand img{
     width: 177px;
 }
