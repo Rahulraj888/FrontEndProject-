@@ -7,7 +7,7 @@
     background-image: url(/images/gallery/background-img-gallery.jpg);
     height: 75vh;
     background-size: cover;
-    }
+}
 .navbar-brand img{
     width: 100px;
 }
@@ -67,4 +67,15 @@ body {
     color: #fff ;
     max-width: 98%;
     margin-block: 15px;
+}
+
+
+@media (max-width: 481px) {
+    .section-1{
+        background-image: url(/images/gallery/background-img-gallery.jpg);
+        height: 50vh;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
 }

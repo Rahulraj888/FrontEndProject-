@@ -18,6 +18,9 @@
     margin-bottom: 100%;
     overflow: hidden;
 }
+.navbar {
+
+}
 .navbar-brand img{
     width: 100px;
 }
@@ -78,11 +81,12 @@
 @media (max-width: 481px) {
     .section-1{
         background-image: url(/images/about/piotr-chrobot-6oUsyeYXgTg-unsplash.jpg);
-        height: 75vh;
+        height: 50vh;
         background-size: cover;
     }
 
     .background-video{
         display: none;
     }
+
 }

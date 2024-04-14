@@ -129,3 +129,20 @@
 .footer p{
     color: rgba(255, 255, 255, 0.575);
 }
+
+
+@media (max-width: 481px) {
+    .navbar-collapse {
+        background-color: #ffffff; 
+        border-radius: 5px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        padding: 10px;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link {
+        color: #333333; 
+        padding: 8px 15px;
+        text-align: center; 
+        border-radius: 3px; 
+    }
+}

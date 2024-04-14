@@ -66,3 +66,14 @@
     color: rgb(0, 0, 0);
     font-family: 'PT serif',serif;
 }
+
+
+
+@media (max-width: 481px) {
+    .section-1{
+        background-image: url(/images/about/paul-kapischka-NLbMgDBio4Y-unsplash.jpg);
+        height: 50vh;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+}
