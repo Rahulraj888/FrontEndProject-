@@ -130,6 +130,10 @@
     color: rgba(255, 255, 255, 0.575);
 }
 
+.mobile-only {
+    display: none;
+}
+
 
 @media (max-width: 481px) {
     .navbar-collapse {
@@ -145,4 +149,16 @@
         text-align: center; 
         border-radius: 3px; 
     }
+
+    .menubar {
+        display: none; /* Hide menu icon by default */
+    }
+
+    .mobile-only {
+        display: block;
+    }
+    .nav-item {
+        color: #111;
+    }
 }
+
