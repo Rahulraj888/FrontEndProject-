@@ -110,21 +110,38 @@
                 <option value="yellowstone-club">Yellowstone Club</option>
 
             </select>
+            <form id="contactForm">
+                <label for="name"><b>Name:</b></label>
+                <input type="text" name="name" placeholder="Enter your name"> <br> <br>
+                <label for="contact"><b>ContactNo:</b></label>
+                <input type="text" name="contact" placeholder="Enter your contact">  <br> <br>
+                <label for="EmailID"><b>EmailID:</b></label>
+                <input type="text" name="EmailID" placeholder="Enter your EmailID">  <br> <br>
+                <button type="submit" class="submit-btn">Submit</button>  
+            </form> <br>
+            
+            <script>
+                document.getElementById("contactForm").addEventListener("submit", function(event) {
+                  event.preventDefault();
+                  alert("Details saved. We will contact you soon.");
+                });
+                </script>  
+                <br> <br>              
         </div>
     </div>
 
     <div class="section-4 mt-2">
-        <h1 class="sec4-head">Discovery Land Company</h1>
+        <h1 class="sec4-head">Refined Reside Realty</h1>
         <div class="row mt-5 justify-content-center align-items-center inner-box">
             <div class="col-lg-6 col-sm-12">
                 <h3>Headquarters</h3>
                 <p>Phone: <span class="phone">(480) 624-5200</span></p>
-                <p class="mail-id">mail@discoverylandco.com</p>
+                <p class="mail-id">mail@refinedresiderealty.com</p>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <h3> Marketing office</h3>
                 <p>Phone: <span class="phone">(310) 859-0700</span></p>
-                <p class="mail-id">media@discoverylandco.com</p>
+                <p class="mail-id">media@refinedresiderealty.com</p>
             </div>
         </div>
     </div>
