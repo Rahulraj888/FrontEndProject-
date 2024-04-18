@@ -86,4 +86,8 @@
         display: none;
     }
 
+    .main-content {
+        margin-left: 50px;
+    }
+
 }
