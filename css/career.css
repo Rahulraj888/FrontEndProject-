@@ -73,19 +73,6 @@
     font-weight: lighter;
     letter-spacing: 6px;
 }
-.scroll button{
-    width: 92px;
-    height: 92px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: 1px solid #fff;
-    padding: 30px;
-    transform: translateY();
-}
-.scroll button svg{
-    fill: #fff;
-    transform: rotate(90deg);
-}
 .main-content{
     width: 70%;
 }
