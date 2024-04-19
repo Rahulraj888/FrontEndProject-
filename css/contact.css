@@ -48,23 +48,6 @@
     font-family: 'gotham';
 
 }
-.scroll{
-    position: absolute;
-    width: 100%;
-    bottom: 5%;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 0 40px;
-    margin-bottom: 5em;
-}
-.scroll p {
-    font-family: 'gotham';
-    font-size: 14px;
-    color: #fff;
-    margin: 0;
-}
 .main-container p{
     color: seashell;
     text-align: start;
@@ -73,19 +56,6 @@
     font-family: unset;
     font-weight: lighter;
     letter-spacing: 6px;
-}
-.scroll button{
-    width: 92px;
-    height: 92px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: 1px solid #fff;
-    padding: 30px;
-    transform: translateY();
-}
-.scroll button svg{
-    fill: #fff;
-    transform: rotate(90deg);
 }
 
 /* section-2 */
